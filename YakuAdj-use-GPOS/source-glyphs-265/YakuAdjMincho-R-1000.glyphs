@@ -51,13 +51,13 @@ value = "Adobe-Identity-0";
 },
 {
 name = localizedFamilyName;
-value = "Japanese;約剣明朝";
+value = "Japanese;約味明朝";
 }
 );
 date = "2020-10-04 02:03:38 +0000";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
-familyName = YakuKenMincho;
+familyName = YakuAdjMincho;
 featurePrefixes = (
 {
 automatic = 1;
