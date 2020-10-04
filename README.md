@@ -6,7 +6,7 @@
 ## Webフォント　約剣（YakuKen）
 * 和文の句読点や括弧が連続したときのアキを自動調整するフォント。
 * GPOSのchws/vchwで自動調整します。
-* [https://tama-san.com/yakucalt-font/]{https://tama-san.com/yakuken-font}
+* [https://tama-san.com/yakucalt-font/](https://tama-san.com/yakuken-font/)
 
 ## ライセンス
 なし。無制限で使用可能。改変したらフォント名変更を強く推奨。
