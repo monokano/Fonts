@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" /> 
+<title>約猫フォント 検証</title> 
+<script type="text/javascript">
+</script>
+<style type="text/css">
+@font-face {
+  font-family: 'Yakumono';
+  src: url('YakuCaltGothic-R.woff') format('woff'), url('YakuCaltGothic-R.otf') format('opentype');
+  font-weight:300 ;
+}
+body {
+	font-family:"游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    font-kerning: none;
+	margin:2.5rem;
+}
+div {
+	font-size:1.2rem ;
+}
+h1 {
+	font-size:1.5rem ;
+    font-kerning: normal;
+    -webkit-font-feature-settings: 'palt';
+    -moz-font-feature-settings: 'palt';
+    font-feature-settings: 'palt';
+}
+h2 {
+	font-size:1.2rem ;
+}
+.Yakumono {
+	font-family:Yakumono, sans-serif ;
+	font-weight:300 ;
+}
+.vert {
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+}
+.calt{
+	-webkit-font-feature-settings: 'calt' 1;
+	-moz-font-feature-settings: 'calt' 1;
+	font-feature-settings: 'calt' 1;
+}
+.caltoff {
+	-webkit-font-feature-settings: 'calt' 0;
+	-moz-font-feature-settings: 'calt' 0;
+	font-feature-settings: 'calt' 0;
+}
+.description {
+	font-size:0.9rem ;
+	font-weight:300 ;
+}
+</style>
+<body>
+
+<h1>約猫フォント calt 検証</h1>
+
+<hr />
+
+<h2>ヨコ組み　<span class="description">caltを有効にしている</span></h2>
+<div class="Yakumono calt">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>ヨコ組み　<span class="description">caltを無効にしている</span></h2>
+<div class="Yakumono caltoff">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>ヨコ組み　<span class="description">caltの設定はしていない＝ブラウザのデフォルト状態</span></h2>
+<div class="Yakumono">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>タテ組み　<span class="description">caltを有効にしている</span></h2>
+<div class="Yakumono vert calt">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>タテ組み　<span class="description">caltを無効にしている</span></h2>
+<div class="Yakumono vert caltoff">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>タテ組み　<span class="description">caltの設定はしていない＝ブラウザのデフォルト状態</span></h2>
+<div class="Yakumono vert">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+
+</body>
+</head>

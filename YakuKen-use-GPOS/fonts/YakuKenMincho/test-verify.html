@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" /> 
+<title>約剣フォント 検証</title> 
+<script type="text/javascript">
+</script>
+<style type="text/css">
+@font-face {
+  font-family: 'Yakumono';
+  src: url('YakuKenMincho-R.woff') format('woff'), url('YakuKenMincho-R.otf') format('opentype');
+  font-weight:300 ;
+}
+body {
+	font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    font-kerning: none;
+	margin:2.5rem;
+}
+div {
+	font-size:1.2rem ;
+}
+h1 {
+	font-size:1.5rem ;
+    font-kerning: normal;
+    -webkit-font-feature-settings: 'palt';
+    -moz-font-feature-settings: 'palt';
+    font-feature-settings: 'palt';
+}
+h2 {
+	font-size:1.2rem ;
+}
+
+.Yakumono {
+	font-family:Yakumono, serif ;
+	font-weight:300 ;
+}
+.vert {
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+}
+.chws{
+	-webkit-font-feature-settings: 'chws' 1;
+	-moz-font-feature-settings: 'chws' 1;
+	font-feature-settings: 'chws' 1;
+}
+.vchw{
+    -webkit-font-feature-settings: 'vchw' 1;
+    -moz-font-feature-settings: 'vchw' 1;
+    font-feature-settings: 'vchw' 1;
+}
+
+.description {
+	font-size:0.9rem ;
+	font-weight:300 ;
+}
+</style>
+
+<body>
+
+<h1>約剣フォント chws/vchw 検証</h1>
+
+<hr />
+
+<h2>ヨコ組み　<span class="description">chwsを設定をしている</span></h2>
+<div class="Yakumono chws">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>ヨコ組み　<span class="description">chwsを設定していない＝ブラウザのデフォルト状態</span></h2>
+<div class="Yakumono">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>タテ組み　<span class="description">vchwを設定している</span></h2>
+<div class="Yakumono vert vchw">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>タテ組み　<span class="description">vchwを設定していない＝ブラウザのデフォルト状態</span></h2>
+<div class="Yakumono vert">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+
+</body>
+</head>

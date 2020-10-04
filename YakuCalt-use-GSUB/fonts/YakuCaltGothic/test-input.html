@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" /> 
+<title>約猫フォント 入力検証</title> 
+<script type="text/javascript">
+</script>
+<style type="text/css">
+@font-face {
+    font-family: 'Yakumono';
+    src: url('YakuCaltGothic-R.woff') format('woff'), url('YakuCaltGothic-R.otf') format('opentype');
+    font-weight:300 ;
+}
+body {
+	font-family:"游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    margin: 2rem;
+}
+.input {
+	font-family:"Yakumono", "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+	font-size: 1.25rem;
+	line-height: 175% ;
+    font-kerning: none;
+	margin-top: 1rem;
+	width: 100%;
+	resize: vertical;
+	-webkit-font-feature-settings: 'calt' 1;
+	-moz-font-feature-settings: 'calt' 1;
+	font-feature-settings: 'calt' 1;
+}
+</style>
+<body>
+
+和文の句読点や括弧が連続したときのアキを「約猫フォント」が自動的に調整します。<br />
+<textarea class="input" rows="10" >（入力してみましょう）</textarea>
+
+</body>
+</head>
