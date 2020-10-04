@@ -1,7 +1,7 @@
 ## Webフォント　約猫（YakuCalt）
 * 和文の句読点や括弧が連続したときのアキを自動調整するフォント。
 * GSUBのcaltで自動調整します。
-* [https://tama-san.com/yakucalt-font/]{https://tama-san.com/yakucalt-font}
+* [https://tama-san.com/yakucalt-font/](https://tama-san.com/yakucalt-font)
 
 ## Webフォント　約剣（YakuKen）
 * 和文の句読点や括弧が連続したときのアキを自動調整するフォント。
