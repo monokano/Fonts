@@ -1,5 +1,5 @@
 {
-.appVersion = "899";
+.appVersion = "1363";
 classes = (
 {
 code = "colon.full semicolon.full dot-kata";
@@ -41,16 +41,15 @@ space
 );
 },
 {
-name = ROS;
-value = "Adobe-Identity-0";
-},
-{
-name = localizedFamilyName;
-value = "Japanese;約猫明朝";
+name = codePageRanges;
+value = (
+1252,
+932
+);
 }
 );
-date = "2016-05-30 12:05:35 +0000";
-familyName = YakuCaltMincho;
+date = "2023-01-02 03:41:56 +0000";
+familyName = YakuCaltGothic;
 featurePrefixes = (
 {
 automatic = 1;
@@ -71,17 +70,17 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "sub space by enspace;\012sub comma-han by comma-han.half;\012sub period-han by period-han.half;\012sub comma.full by comma.full.half;\012sub period.full by period.full.half;\012sub cornerbracketleft by cornerbracketleft.half;\012sub cornerbracketright by cornerbracketright.half;\012sub whiteparenleft.full by whiteparenleft.full.half;\012sub whiteparenright.full by whiteparenright.full.half;\012sub anglebracketleft by anglebracketleft.half;\012sub anglebracketright by anglebracketright.half;\012sub blacklenticularbracketleft by blacklenticularbracketleft.half;\012sub blacklenticularbracketright by blacklenticularbracketright.half;\012sub braceleft.full by braceleft.full.half;\012sub braceright.full by braceright.full.half;\012sub bracketleft.full by bracketleft.full.half;\012sub bracketright.full by bracketright.full.half;\012sub dblanglebracketleft by dblanglebracketleft.half;\012sub dblanglebracketright by dblanglebracketright.half;\012sub parenleft.full by parenleft.full.half;\012sub parenright.full by parenright.full.half;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.half;\012sub tortoiseshellbracketright by tortoiseshellbracketright.half;\012sub whitecornerbracketleft by whitecornerbracketleft.half;\012sub whitecornerbracketright by whitecornerbracketright.half;\012sub whitelenticularbracketleft by whitelenticularbracketleft.half;\012sub whitelenticularbracketright by whitelenticularbracketright.half;\012sub whitesquarebracketleft by whitesquarebracketleft.half;\012sub whitesquarebracketright by whitesquarebracketright.half;\012sub whitetortoiseshellbracketleft by whitetortoiseshellbracketleft.half;\012sub whitetortoiseshellbracketright by whitetortoiseshellbracketright.half;\012sub lowquotedoubleprime by lowquotedoubleprime.half;\012sub quotedblleft by quotedblleft.half;\012sub quotedblright by quotedblright.half;\012sub quotedoubleprime by quotedoubleprime.half;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.half;\012sub quoteleft by quoteleft.half;\012sub quoteright by quoteright.half;\012";
+code = "sub space by enspace;\012sub comma-han by comma-han.half;\012sub comma.full by comma.full.half;\012sub period.full by period.full.half;\012sub period-han by period-han.half;\012sub cornerbracketleft by cornerbracketleft.half;\012sub cornerbracketright by cornerbracketright.half;\012sub whiteparenleft.full by whiteparenleft.full.half;\012sub whiteparenright.full by whiteparenright.full.half;\012sub anglebracketleft by anglebracketleft.half;\012sub anglebracketright by anglebracketright.half;\012sub blacklenticularbracketleft by blacklenticularbracketleft.half;\012sub blacklenticularbracketright by blacklenticularbracketright.half;\012sub braceleft.full by braceleft.full.half;\012sub braceright.full by braceright.full.half;\012sub bracketleft.full by bracketleft.full.half;\012sub bracketright.full by bracketright.full.half;\012sub dblanglebracketleft by dblanglebracketleft.half;\012sub dblanglebracketright by dblanglebracketright.half;\012sub parenleft.full by parenleft.full.half;\012sub parenright.full by parenright.full.half;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.half;\012sub tortoiseshellbracketright by tortoiseshellbracketright.half;\012sub whitecornerbracketleft by whitecornerbracketleft.half;\012sub whitecornerbracketright by whitecornerbracketright.half;\012sub whitelenticularbracketleft by whitelenticularbracketleft.half;\012sub whitelenticularbracketright by whitelenticularbracketright.half;\012sub whitesquarebracketleft by whitesquarebracketleft.half;\012sub whitesquarebracketright by whitesquarebracketright.half;\012sub whitetortoiseshellbracketleft by whitetortoiseshellbracketleft.half;\012sub whitetortoiseshellbracketright by whitetortoiseshellbracketright.half;\012sub lowquotedoubleprime by lowquotedoubleprime.half;\012sub quotedblleft by quotedblleft.half;\012sub quotedblright by quotedblright.half;\012sub quotedoubleprime by quotedoubleprime.half;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.half;\012sub quoteleft by quoteleft.half;\012sub quoteright by quoteright.half;\012";
 name = hwid;
 },
 {
 automatic = 1;
-code = "sub comma-han by comma-han.vert;\012sub period-han by period-han.vert;\012sub comma.full by comma.full.vert;\012sub period.full by period.full.vert;\012sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub braceleft.full by braceleft.full.vert;\012sub braceright.full by braceright.full.vert;\012sub bracketleft.full by bracketleft.full.vert;\012sub bracketright.full by bracketright.full.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub whiteparenleft.full by whiteparenleft.full.vert;\012sub whiteparenright.full by whiteparenright.full.vert;\012sub parenleft.full by parenleft.full.vert;\012sub parenright.full by parenright.full.vert;\012sub whitesquarebracketleft by whitesquarebracketleft.vert;\012sub whitesquarebracketright by whitesquarebracketright.vert;\012sub whitetortoiseshellbracketleft by whitetortoiseshellbracketleft.vert;\012sub whitetortoiseshellbracketright by whitetortoiseshellbracketright.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub whitelenticularbracketleft by whitelenticularbracketleft.vert;\012sub whitelenticularbracketright by whitelenticularbracketright.vert;\012sub lowquotedoubleprime by lowquotedoubleprime.vert;\012sub quotedblleft by quotedblleft.vert;\012sub quotedblright by quotedblright.vert;\012sub quotedoubleprime by quotedoubleprime.vert;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.vert;\012sub quoteleft by quoteleft.vert;\012sub quoteright by quoteright.vert;\012sub colon.full by colon.full.vert;\012sub semicolon.full by semicolon.full.vert;\012sub ellipsis by ellipsis.vert;\012sub twodotenleader by twodotenleader.vert;\012sub comma-han.half by comma-han.half.vert;\012sub period-han.half by period-han.half.vert;\012sub comma.full.half by comma.full.half.vert;\012sub period.full.half by period.full.half.vert;\012sub cornerbracketleft.half by cornerbracketleft.half.vert;\012sub cornerbracketright.half by cornerbracketright.half.vert;\012sub whiteparenleft.full.half by whiteparenleft.full.half.vert;\012sub whiteparenright.full.half by whiteparenright.full.half.vert;\012sub anglebracketleft.half by anglebracketleft.half.vert;\012sub anglebracketright.half by anglebracketright.half.vert;\012sub blacklenticularbracketleft.half by blacklenticularbracketleft.half.vert;\012sub blacklenticularbracketright.half by blacklenticularbracketright.half.vert;\012sub braceleft.full.half by braceleft.full.half.vert;\012sub braceright.full.half by braceright.full.half.vert;\012sub bracketleft.full.half by bracketleft.full.half.vert;\012sub bracketright.full.half by bracketright.full.half.vert;\012sub dblanglebracketleft.half by dblanglebracketleft.half.vert;\012sub dblanglebracketright.half by dblanglebracketright.half.vert;\012sub tortoiseshellbracketleft.half by tortoiseshellbracketleft.half.vert;\012sub tortoiseshellbracketright.half by tortoiseshellbracketright.half.vert;\012sub parenleft.full.half by parenleft.full.half.vert;\012sub parenright.full.half by parenright.full.half.vert;\012sub whitecornerbracketleft.half by whitecornerbracketleft.half.vert;\012sub whitecornerbracketright.half by whitecornerbracketright.half.vert;\012sub whitelenticularbracketleft.half by whitelenticularbracketleft.half.vert;\012sub whitelenticularbracketright.half by whitelenticularbracketright.half.vert;\012sub whitesquarebracketleft.half by whitesquarebracketleft.half.vert;\012sub whitesquarebracketright.half by whitesquarebracketright.half.vert;\012sub whitetortoiseshellbracketleft.half by whitetortoiseshellbracketleft.half.vert;\012sub whitetortoiseshellbracketright.half by whitetortoiseshellbracketright.half.vert;\012sub lowquotedoubleprime.half by lowquotedoubleprime.half.vert;\012sub quotedblleft.half by quotedblleft.half.vert;\012sub quotedblright.half by quotedblright.half.vert;\012sub quotedoubleprime.half by quotedoubleprime.half.vert;\012sub quotedoubleprimeReversed.half by quotedoubleprimeReversed.half.vert;\012sub quoteleft.half by quoteleft.half.vert;\012sub quoteright.half by quoteright.half.vert;\012";
+code = "sub comma-han by comma-han.vert;\012sub comma.full by comma.full.vert;\012sub ellipsis by ellipsis.vert;\012sub period-han by period-han.vert;\012sub colon.full by colon.full.vert;\012sub comma-han.half by comma-han.half.vert;\012sub comma.full.half by comma.full.half.vert;\012sub period.full.half by period.full.half.vert;\012sub period-han.half by period-han.half.vert;\012sub period.full by period.full.vert;\012sub semicolon.full by semicolon.full.vert;\012sub twodotenleader by twodotenleader.vert;\012sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub braceleft.full by braceleft.full.vert;\012sub braceright.full by braceright.full.vert;\012sub bracketleft.full by bracketleft.full.vert;\012sub bracketright.full by bracketright.full.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub whiteparenleft.full by whiteparenleft.full.vert;\012sub whiteparenright.full by whiteparenright.full.vert;\012sub cornerbracketleft.half by cornerbracketleft.half.vert;\012sub cornerbracketright.half by cornerbracketright.half.vert;\012sub parenleft.full by parenleft.full.vert;\012sub parenright.full by parenright.full.vert;\012sub whiteparenleft.full.half by whiteparenleft.full.half.vert;\012sub whiteparenright.full.half by whiteparenright.full.half.vert;\012sub anglebracketleft.half by anglebracketleft.half.vert;\012sub anglebracketright.half by anglebracketright.half.vert;\012sub blacklenticularbracketleft.half by blacklenticularbracketleft.half.vert;\012sub blacklenticularbracketright.half by blacklenticularbracketright.half.vert;\012sub braceleft.full.half by braceleft.full.half.vert;\012sub braceright.full.half by braceright.full.half.vert;\012sub bracketleft.full.half by bracketleft.full.half.vert;\012sub bracketright.full.half by bracketright.full.half.vert;\012sub dblanglebracketleft.half by dblanglebracketleft.half.vert;\012sub dblanglebracketright.half by dblanglebracketright.half.vert;\012sub tortoiseshellbracketleft.half by tortoiseshellbracketleft.half.vert;\012sub tortoiseshellbracketright.half by tortoiseshellbracketright.half.vert;\012sub parenleft.full.half by parenleft.full.half.vert;\012sub parenright.full.half by parenright.full.half.vert;\012sub whitecornerbracketleft.half by whitecornerbracketleft.half.vert;\012sub whitecornerbracketright.half by whitecornerbracketright.half.vert;\012sub whitelenticularbracketleft.half by whitelenticularbracketleft.half.vert;\012sub whitelenticularbracketright.half by whitelenticularbracketright.half.vert;\012sub whitesquarebracketleft.half by whitesquarebracketleft.half.vert;\012sub whitesquarebracketright.half by whitesquarebracketright.half.vert;\012sub whitetortoiseshellbracketleft.half by whitetortoiseshellbracketleft.half.vert;\012sub whitetortoiseshellbracketright.half by whitetortoiseshellbracketright.half.vert;\012sub whitesquarebracketleft by whitesquarebracketleft.vert;\012sub whitesquarebracketright by whitesquarebracketright.vert;\012sub whitetortoiseshellbracketleft by whitetortoiseshellbracketleft.vert;\012sub whitetortoiseshellbracketright by whitetortoiseshellbracketright.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub whitelenticularbracketleft by whitelenticularbracketleft.vert;\012sub whitelenticularbracketright by whitelenticularbracketright.vert;\012sub lowquotedoubleprime.half by lowquotedoubleprime.half.vert;\012sub quotedblleft.half by quotedblleft.half.vert;\012sub quotedblright.half by quotedblright.half.vert;\012sub quotedoubleprime.half by quotedoubleprime.half.vert;\012sub quotedoubleprimeReversed.half by quotedoubleprimeReversed.half.vert;\012sub quoteleft.half by quoteleft.half.vert;\012sub quoteright.half by quoteright.half.vert;\012sub lowquotedoubleprime by lowquotedoubleprime.vert;\012sub quotedblleft by quotedblleft.vert;\012sub quotedblright by quotedblright.vert;\012sub quotedoubleprime by quotedoubleprime.vert;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.vert;\012sub quoteleft by quoteleft.vert;\012sub quoteright by quoteright.vert;\012";
 name = vert;
 },
 {
 automatic = 1;
-code = "sub comma-han by comma-han.vert;\012sub period-han by period-han.vert;\012sub comma.full by comma.full.vert;\012sub period.full by period.full.vert;\012sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub braceleft.full by braceleft.full.vert;\012sub braceright.full by braceright.full.vert;\012sub bracketleft.full by bracketleft.full.vert;\012sub bracketright.full by bracketright.full.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub whiteparenleft.full by whiteparenleft.full.vert;\012sub whiteparenright.full by whiteparenright.full.vert;\012sub parenleft.full by parenleft.full.vert;\012sub parenright.full by parenright.full.vert;\012sub whitesquarebracketleft by whitesquarebracketleft.vert;\012sub whitesquarebracketright by whitesquarebracketright.vert;\012sub whitetortoiseshellbracketleft by whitetortoiseshellbracketleft.vert;\012sub whitetortoiseshellbracketright by whitetortoiseshellbracketright.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub whitelenticularbracketleft by whitelenticularbracketleft.vert;\012sub whitelenticularbracketright by whitelenticularbracketright.vert;\012sub lowquotedoubleprime by lowquotedoubleprime.vert;\012sub quotedblleft by quotedblleft.vert;\012sub quotedblright by quotedblright.vert;\012sub quotedoubleprime by quotedoubleprime.vert;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.vert;\012sub quoteleft by quoteleft.vert;\012sub quoteright by quoteright.vert;\012sub colon.full by colon.full.vert;\012sub semicolon.full by semicolon.full.vert;\012sub ellipsis by ellipsis.vert;\012sub twodotenleader by twodotenleader.vert;\012sub comma-han.half by comma-han.half.vert;\012sub period-han.half by period-han.half.vert;\012sub comma.full.half by comma.full.half.vert;\012sub period.full.half by period.full.half.vert;\012sub cornerbracketleft.half by cornerbracketleft.half.vert;\012sub cornerbracketright.half by cornerbracketright.half.vert;\012sub whiteparenleft.full.half by whiteparenleft.full.half.vert;\012sub whiteparenright.full.half by whiteparenright.full.half.vert;\012sub anglebracketleft.half by anglebracketleft.half.vert;\012sub anglebracketright.half by anglebracketright.half.vert;\012sub blacklenticularbracketleft.half by blacklenticularbracketleft.half.vert;\012sub blacklenticularbracketright.half by blacklenticularbracketright.half.vert;\012sub braceleft.full.half by braceleft.full.half.vert;\012sub braceright.full.half by braceright.full.half.vert;\012sub bracketleft.full.half by bracketleft.full.half.vert;\012sub bracketright.full.half by bracketright.full.half.vert;\012sub dblanglebracketleft.half by dblanglebracketleft.half.vert;\012sub dblanglebracketright.half by dblanglebracketright.half.vert;\012sub tortoiseshellbracketleft.half by tortoiseshellbracketleft.half.vert;\012sub tortoiseshellbracketright.half by tortoiseshellbracketright.half.vert;\012sub parenleft.full.half by parenleft.full.half.vert;\012sub parenright.full.half by parenright.full.half.vert;\012sub whitecornerbracketleft.half by whitecornerbracketleft.half.vert;\012sub whitecornerbracketright.half by whitecornerbracketright.half.vert;\012sub whitelenticularbracketleft.half by whitelenticularbracketleft.half.vert;\012sub whitelenticularbracketright.half by whitelenticularbracketright.half.vert;\012sub whitesquarebracketleft.half by whitesquarebracketleft.half.vert;\012sub whitesquarebracketright.half by whitesquarebracketright.half.vert;\012sub whitetortoiseshellbracketleft.half by whitetortoiseshellbracketleft.half.vert;\012sub whitetortoiseshellbracketright.half by whitetortoiseshellbracketright.half.vert;\012sub lowquotedoubleprime.half by lowquotedoubleprime.half.vert;\012sub quotedblleft.half by quotedblleft.half.vert;\012sub quotedblright.half by quotedblright.half.vert;\012sub quotedoubleprime.half by quotedoubleprime.half.vert;\012sub quotedoubleprimeReversed.half by quotedoubleprimeReversed.half.vert;\012sub quoteleft.half by quoteleft.half.vert;\012sub quoteright.half by quoteright.half.vert;\012";
+code = "sub comma-han by comma-han.vert;\012sub comma.full by comma.full.vert;\012sub ellipsis by ellipsis.vert;\012sub period-han by period-han.vert;\012sub colon.full by colon.full.vert;\012sub comma-han.half by comma-han.half.vert;\012sub comma.full.half by comma.full.half.vert;\012sub period.full.half by period.full.half.vert;\012sub period-han.half by period-han.half.vert;\012sub period.full by period.full.vert;\012sub semicolon.full by semicolon.full.vert;\012sub twodotenleader by twodotenleader.vert;\012sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub braceleft.full by braceleft.full.vert;\012sub braceright.full by braceright.full.vert;\012sub bracketleft.full by bracketleft.full.vert;\012sub bracketright.full by bracketright.full.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub whiteparenleft.full by whiteparenleft.full.vert;\012sub whiteparenright.full by whiteparenright.full.vert;\012sub cornerbracketleft.half by cornerbracketleft.half.vert;\012sub cornerbracketright.half by cornerbracketright.half.vert;\012sub parenleft.full by parenleft.full.vert;\012sub parenright.full by parenright.full.vert;\012sub whiteparenleft.full.half by whiteparenleft.full.half.vert;\012sub whiteparenright.full.half by whiteparenright.full.half.vert;\012sub anglebracketleft.half by anglebracketleft.half.vert;\012sub anglebracketright.half by anglebracketright.half.vert;\012sub blacklenticularbracketleft.half by blacklenticularbracketleft.half.vert;\012sub blacklenticularbracketright.half by blacklenticularbracketright.half.vert;\012sub braceleft.full.half by braceleft.full.half.vert;\012sub braceright.full.half by braceright.full.half.vert;\012sub bracketleft.full.half by bracketleft.full.half.vert;\012sub bracketright.full.half by bracketright.full.half.vert;\012sub dblanglebracketleft.half by dblanglebracketleft.half.vert;\012sub dblanglebracketright.half by dblanglebracketright.half.vert;\012sub tortoiseshellbracketleft.half by tortoiseshellbracketleft.half.vert;\012sub tortoiseshellbracketright.half by tortoiseshellbracketright.half.vert;\012sub parenleft.full.half by parenleft.full.half.vert;\012sub parenright.full.half by parenright.full.half.vert;\012sub whitecornerbracketleft.half by whitecornerbracketleft.half.vert;\012sub whitecornerbracketright.half by whitecornerbracketright.half.vert;\012sub whitelenticularbracketleft.half by whitelenticularbracketleft.half.vert;\012sub whitelenticularbracketright.half by whitelenticularbracketright.half.vert;\012sub whitesquarebracketleft.half by whitesquarebracketleft.half.vert;\012sub whitesquarebracketright.half by whitesquarebracketright.half.vert;\012sub whitetortoiseshellbracketleft.half by whitetortoiseshellbracketleft.half.vert;\012sub whitetortoiseshellbracketright.half by whitetortoiseshellbracketright.half.vert;\012sub whitesquarebracketleft by whitesquarebracketleft.vert;\012sub whitesquarebracketright by whitesquarebracketright.vert;\012sub whitetortoiseshellbracketleft by whitetortoiseshellbracketleft.vert;\012sub whitetortoiseshellbracketright by whitetortoiseshellbracketright.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub whitelenticularbracketleft by whitelenticularbracketleft.vert;\012sub whitelenticularbracketright by whitelenticularbracketright.vert;\012sub lowquotedoubleprime.half by lowquotedoubleprime.half.vert;\012sub quotedblleft.half by quotedblleft.half.vert;\012sub quotedblright.half by quotedblright.half.vert;\012sub quotedoubleprime.half by quotedoubleprime.half.vert;\012sub quotedoubleprimeReversed.half by quotedoubleprimeReversed.half.vert;\012sub quoteleft.half by quoteleft.half.vert;\012sub quoteright.half by quoteright.half.vert;\012sub lowquotedoubleprime by lowquotedoubleprime.vert;\012sub quotedblleft by quotedblleft.vert;\012sub quotedblright by quotedblright.vert;\012sub quotedoubleprime by quotedoubleprime.vert;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.vert;\012sub quoteleft by quoteleft.vert;\012sub quoteright by quoteright.vert;\012";
 name = vrt2;
 }
 );
@@ -124,7 +123,7 @@ glyphs = (
 {
 color = 5;
 glyphname = .notdef;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -177,7 +176,7 @@ width = 1000;
 },
 {
 glyphname = space;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -188,7 +187,7 @@ unicode = 0020;
 },
 {
 glyphname = emspace;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -206,7 +205,7 @@ unicode = 2003;
 },
 {
 glyphname = enspace;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -217,7 +216,7 @@ unicode = 2002;
 },
 {
 glyphname = "space-han";
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -235,7 +234,7 @@ unicode = 3000;
 {
 color = 5;
 glyphname = "comma-han";
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -243,24 +242,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"294 -79 OFFCURVE",
-"315 -47 OFFCURVE",
-"315 -18 CURVE SMOOTH",
-"315 48 OFFCURVE",
-"209 132 OFFCURVE",
-"86 160 CURVE",
-"78 162 OFFCURVE",
-"72 160 OFFCURVE",
-"68 155 CURVE SMOOTH",
-"64 150 OFFCURVE",
-"66 145 OFFCURVE",
-"75 139 CURVE SMOOTH",
-"136 100 OFFCURVE",
-"176 49 OFFCURVE",
-"204 -26 CURVE",
-"213 -58 OFFCURVE",
-"237 -79 OFFCURVE",
-"263 -79 CURVE SMOOTH"
+"303 -29 LINE",
+"240 60 OFFCURVE",
+"178 120 OFFCURVE",
+"94 178 CURVE",
+"46 134 LINE",
+"121 76 OFFCURVE",
+"186 4 OFFCURVE",
+"243 -78 CURVE"
 );
 }
 );
@@ -273,7 +262,7 @@ unicode = 3001;
 {
 color = 5;
 glyphname = "period-han";
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -281,35 +270,35 @@ paths = (
 {
 closed = 1;
 nodes = (
-"262 -82 OFFCURVE",
-"321 -23 OFFCURVE",
-"321 49 CURVE SMOOTH",
-"321 122 OFFCURVE",
-"262 180 OFFCURVE",
-"190 180 CURVE SMOOTH",
-"117 180 OFFCURVE",
-"59 122 OFFCURVE",
-"59 49 CURVE SMOOTH",
-"59 -23 OFFCURVE",
-"117 -82 OFFCURVE",
-"190 -82 CURVE SMOOTH"
+"273 -72 OFFCURVE",
+"334 -10 OFFCURVE",
+"334 66 CURVE SMOOTH",
+"334 142 OFFCURVE",
+"273 203 OFFCURVE",
+"197 203 CURVE SMOOTH",
+"121 203 OFFCURVE",
+"59 142 OFFCURVE",
+"59 66 CURVE SMOOTH",
+"59 -10 OFFCURVE",
+"121 -72 OFFCURVE",
+"197 -72 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"136 -48 OFFCURVE",
-"92 -4 OFFCURVE",
-"92 49 CURVE SMOOTH",
-"92 103 OFFCURVE",
-"136 147 OFFCURVE",
-"190 147 CURVE SMOOTH",
-"243 147 OFFCURVE",
-"287 103 OFFCURVE",
-"287 49 CURVE SMOOTH",
-"287 -4 OFFCURVE",
-"243 -48 OFFCURVE",
-"190 -48 CURVE SMOOTH"
+"147 -24 OFFCURVE",
+"107 16 OFFCURVE",
+"107 66 CURVE SMOOTH",
+"107 116 OFFCURVE",
+"147 156 OFFCURVE",
+"197 156 CURVE SMOOTH",
+"247 156 OFFCURVE",
+"287 116 OFFCURVE",
+"287 66 CURVE SMOOTH",
+"287 16 OFFCURVE",
+"247 -24 OFFCURVE",
+"197 -24 CURVE SMOOTH"
 );
 }
 );
@@ -322,7 +311,7 @@ unicode = 3002;
 {
 color = 5;
 glyphname = comma.full;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -330,36 +319,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"78 -111 OFFCURVE",
-"82 -109 OFFCURVE",
-"85 -106 CURVE",
-"162 -44 OFFCURVE",
-"199 13 OFFCURVE",
-"199 68 CURVE SMOOTH",
-"199 118 OFFCURVE",
-"170 152 OFFCURVE",
-"127 152 CURVE SMOOTH",
-"88 152 OFFCURVE",
-"58 123 OFFCURVE",
-"58 86 CURVE SMOOTH",
-"58 61 OFFCURVE",
-"72 39 OFFCURVE",
-"94 26 CURVE SMOOTH",
-"118 13 OFFCURVE",
-"124 7 OFFCURVE",
-"124 -7 CURVE SMOOTH",
-"124 -31 OFFCURVE",
-"110 -51 OFFCURVE",
-"68 -85 CURVE SMOOTH",
-"63 -89 OFFCURVE",
-"61 -93 OFFCURVE",
-"61 -97 CURVE SMOOTH",
-"61 -100 OFFCURVE",
-"62 -103 OFFCURVE",
-"64 -106 CURVE",
-"66 -109 OFFCURVE",
-"69 -111 OFFCURVE",
-"73 -111 CURVE SMOOTH"
+"114 -111 OFFCURVE",
+"142 -78 OFFCURVE",
+"142 -13 CURVE SMOOTH",
+"142 86 LINE",
+"43 86 LINE",
+"43 -13 LINE",
+"101 -13 LINE",
+"101 -56 OFFCURVE",
+"89 -73 OFFCURVE",
+"54 -76 CURVE",
+"54 -117 LINE"
 );
 }
 );
@@ -372,7 +342,7 @@ unicode = FF0C;
 {
 color = 5;
 glyphname = period.full;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -380,18 +350,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"168 -40 OFFCURVE",
-"200 -8 OFFCURVE",
-"200 31 CURVE SMOOTH",
-"200 70 OFFCURVE",
-"168 102 OFFCURVE",
-"129 102 CURVE SMOOTH",
-"90 102 OFFCURVE",
-"58 70 OFFCURVE",
-"58 31 CURVE SMOOTH",
-"58 -8 OFFCURVE",
-"90 -40 OFFCURVE",
-"129 -40 CURVE SMOOTH"
+"141 -78 LINE",
+"141 21 LINE",
+"42 21 LINE",
+"42 -78 LINE"
 );
 }
 );
@@ -404,7 +366,7 @@ unicode = FF0E;
 {
 color = 5;
 glyphname = whiteparenleft.full;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -412,71 +374,39 @@ paths = (
 {
 closed = 1;
 nodes = (
-"927 -100 OFFCURVE",
-"929 -99 OFFCURVE",
-"930 -97 CURVE SMOOTH",
-"933 -92 OFFCURVE",
-"932 -87 OFFCURVE",
-"925 -80 CURVE",
-"748 114 OFFCURVE",
-"731 308 OFFCURVE",
-"731 380 CURVE SMOOTH",
-"731 452 OFFCURVE",
-"748 646 OFFCURVE",
-"925 840 CURVE",
-"930 845 OFFCURVE",
-"932 848 OFFCURVE",
-"932 852 CURVE SMOOTH",
-"932 854 OFFCURVE",
-"931 855 OFFCURVE",
-"930 857 CURVE SMOOTH",
-"927 862 OFFCURVE",
-"921 861 OFFCURVE",
-"913 854 CURVE SMOOTH",
-"764 730 OFFCURVE",
-"676 554 OFFCURVE",
-"676 380 CURVE SMOOTH",
-"676 206 OFFCURVE",
-"764 30 OFFCURVE",
-"913 -94 CURVE SMOOTH",
-"918 -98 OFFCURVE",
-"922 -100 OFFCURVE",
-"925 -100 CURVE SMOOTH"
+"924 -81 LINE",
+"807 91 OFFCURVE",
+"763 217 OFFCURVE",
+"763 380 CURVE SMOOTH",
+"763 543 OFFCURVE",
+"807 669 OFFCURVE",
+"924 841 CURVE",
+"888 865 LINE",
+"767 688 OFFCURVE",
+"719 551 OFFCURVE",
+"719 380 CURVE SMOOTH",
+"719 209 OFFCURVE",
+"766 72 OFFCURVE",
+"887 -105 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"784 -100 OFFCURVE",
-"786 -99 OFFCURVE",
-"787 -97 CURVE SMOOTH",
-"790 -92 OFFCURVE",
-"789 -87 OFFCURVE",
-"782 -80 CURVE",
-"605 114 OFFCURVE",
-"588 308 OFFCURVE",
+"793 -81 LINE",
+"676 91 OFFCURVE",
+"632 217 OFFCURVE",
+"632 380 CURVE SMOOTH",
+"632 543 OFFCURVE",
+"676 669 OFFCURVE",
+"793 841 CURVE",
+"757 865 LINE",
+"636 688 OFFCURVE",
+"588 551 OFFCURVE",
 "588 380 CURVE SMOOTH",
-"588 452 OFFCURVE",
-"605 646 OFFCURVE",
-"782 840 CURVE",
-"787 845 OFFCURVE",
-"789 848 OFFCURVE",
-"789 852 CURVE SMOOTH",
-"789 854 OFFCURVE",
-"788 855 OFFCURVE",
-"787 857 CURVE SMOOTH",
-"784 862 OFFCURVE",
-"778 861 OFFCURVE",
-"770 854 CURVE SMOOTH",
-"621 730 OFFCURVE",
-"533 554 OFFCURVE",
-"533 380 CURVE SMOOTH",
-"533 206 OFFCURVE",
-"621 30 OFFCURVE",
-"770 -94 CURVE SMOOTH",
-"775 -98 OFFCURVE",
-"779 -100 OFFCURVE",
-"782 -100 CURVE SMOOTH"
+"588 209 OFFCURVE",
+"635 72 OFFCURVE",
+"756 -105 CURVE"
 );
 }
 );
@@ -488,7 +418,7 @@ unicode = FF5F;
 },
 {
 glyphname = whiteparenright.full;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -507,7 +437,7 @@ unicode = FF60;
 {
 color = 5;
 glyphname = anglebracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -515,12 +445,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"932 -90 LINE",
-"629 380 LINE",
-"932 850 LINE",
-"898 870 LINE",
-"581 379 LINE",
-"897 -110 LINE"
+"950 -84 LINE",
+"651 380 LINE",
+"950 844 LINE",
+"904 874 LINE",
+"586 380 LINE",
+"585 380 LINE",
+"904 -114 LINE"
 );
 }
 );
@@ -532,7 +463,7 @@ unicode = 3008;
 },
 {
 glyphname = anglebracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -551,7 +482,7 @@ unicode = 3009;
 {
 color = 5;
 glyphname = blacklenticularbracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -579,7 +510,7 @@ unicode = 3010;
 },
 {
 glyphname = blacklenticularbracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -598,7 +529,7 @@ unicode = 3011;
 {
 color = 5;
 glyphname = braceleft.full;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -606,75 +537,57 @@ paths = (
 {
 closed = 1;
 nodes = (
-"944 -102 OFFCURVE",
-"950 -99 OFFCURVE",
-"950 -95 CURVE SMOOTH",
-"950 -91 OFFCURVE",
-"946 -88 OFFCURVE",
-"938 -87 CURVE SMOOTH",
-"830 -77 OFFCURVE",
-"784 -33 OFFCURVE",
-"784 61 CURVE SMOOTH",
-"784 87 OFFCURVE",
-"788 118 OFFCURVE",
-"795 156 CURVE SMOOTH",
-"801 186 OFFCURVE",
-"804 213 OFFCURVE",
-"804 237 CURVE SMOOTH",
-"804 319 OFFCURVE",
-"766 364 OFFCURVE",
-"686.008 380 CURVE",
-"766 396 OFFCURVE",
-"804 441 OFFCURVE",
-"804 523 CURVE SMOOTH",
-"804 547 OFFCURVE",
-"801 574 OFFCURVE",
-"795 604 CURVE SMOOTH",
-"788 642 OFFCURVE",
-"784 673 OFFCURVE",
-"784 699 CURVE SMOOTH",
-"784 793 OFFCURVE",
-"830 837 OFFCURVE",
-"938 847 CURVE SMOOTH",
-"946 848 OFFCURVE",
-"950 851 OFFCURVE",
-"950 855 CURVE SMOOTH",
-"950 858 OFFCURVE",
-"946 861 OFFCURVE",
-"940 861 CURVE SMOOTH",
-"937 861 LINE",
-"785 848 OFFCURVE",
-"723 799 OFFCURVE",
-"723 690 CURVE SMOOTH",
-"723 663 OFFCURVE",
-"726 633 OFFCURVE",
-"733 602 CURVE SMOOTH",
-"740 570 OFFCURVE",
-"743 542 OFFCURVE",
-"743 516 CURVE SMOOTH",
-"743 428 OFFCURVE",
-"700 387 OFFCURVE",
-"605 387 CURVE SMOOTH",
-"592 387 LINE SMOOTH",
-"585 387 OFFCURVE",
-"580 384 OFFCURVE",
-"580 380 CURVE SMOOTH",
-"580 376 OFFCURVE",
-"585 373 OFFCURVE",
-"592 373 CURVE SMOOTH",
-"605 373 LINE SMOOTH",
-"700 373 OFFCURVE",
-"743 332 OFFCURVE",
-"743 244 CURVE SMOOTH",
-"743 218 OFFCURVE",
-"740 190 OFFCURVE",
-"733 158 CURVE SMOOTH",
-"726 127 OFFCURVE",
-"723 97 OFFCURVE",
-"723 70 CURVE SMOOTH",
-"723 -39 OFFCURVE",
-"785 -88 OFFCURVE",
-"937 -101 CURVE"
+"947 -67 LINE",
+"827 -54 OFFCURVE",
+"783 -24 OFFCURVE",
+"783 67 CURVE SMOOTH",
+"783 91 OFFCURVE",
+"786 118 OFFCURVE",
+"791 150 CURVE SMOOTH",
+"796 181 OFFCURVE",
+"799 209 OFFCURVE",
+"799 234 CURVE SMOOTH",
+"799 307 OFFCURVE",
+"777 353 OFFCURVE",
+"729 380 CURVE",
+"777 407 OFFCURVE",
+"800 454 OFFCURVE",
+"800 526 CURVE SMOOTH",
+"800 551 OFFCURVE",
+"797 579 OFFCURVE",
+"792 610 CURVE SMOOTH",
+"786 643 OFFCURVE",
+"783 671 OFFCURVE",
+"783 694 CURVE SMOOTH",
+"783 785 OFFCURVE",
+"828 814 OFFCURVE",
+"947 827 CURVE",
+"941 883 LINE",
+"790 867 OFFCURVE",
+"727 815 OFFCURVE",
+"727 692 CURVE SMOOTH",
+"727 665 OFFCURVE",
+"730 634 OFFCURVE",
+"736 600 CURVE SMOOTH",
+"741 570 OFFCURVE",
+"744 545 OFFCURVE",
+"744 523 CURVE SMOOTH",
+"744 433 OFFCURVE",
+"697 408 OFFCURVE",
+"580 408 CURVE",
+"580 352 LINE",
+"697 352 OFFCURVE",
+"744 327 OFFCURVE",
+"744 236 CURVE SMOOTH",
+"744 214 OFFCURVE",
+"741 189 OFFCURVE",
+"736 159 CURVE SMOOTH",
+"730 125 OFFCURVE",
+"727 95 OFFCURVE",
+"727 68 CURVE SMOOTH",
+"727 -55 OFFCURVE",
+"790 -107 OFFCURVE",
+"941 -123 CURVE"
 );
 }
 );
@@ -686,7 +599,7 @@ unicode = FF5B;
 },
 {
 glyphname = braceright.full;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -705,7 +618,7 @@ unicode = FF5D;
 {
 color = 5;
 glyphname = cornerbracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -713,9 +626,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"683 -17 LINE",
-"683 811 LINE",
-"942 811 LINE",
+"697 -17 LINE",
+"697 797 LINE",
+"942 797 LINE",
 "942 853 LINE",
 "641 853 LINE",
 "641 -17 LINE"
@@ -730,7 +643,7 @@ unicode = 300C;
 },
 {
 glyphname = cornerbracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -749,7 +662,7 @@ unicode = 300D;
 {
 color = 5;
 glyphname = dblanglebracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -785,7 +698,7 @@ unicode = 300A;
 },
 {
 glyphname = dblanglebracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -804,7 +717,7 @@ unicode = 300B;
 {
 color = 5;
 glyphname = tortoiseshellbracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -812,14 +725,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 -68 LINE",
-"683 77 LINE",
-"683 681 LINE",
-"943 828 LINE",
-"922 864 LINE",
-"641 706 LINE",
-"641 52 LINE",
-"920 -104 LINE"
+"957 -60 LINE",
+"697 94 LINE",
+"697 666 LINE",
+"957 820 LINE",
+"928 868 LINE",
+"641 698 LINE",
+"641 62 LINE",
+"928 -108 LINE"
 );
 }
 );
@@ -831,7 +744,7 @@ unicode = 3014;
 },
 {
 glyphname = tortoiseshellbracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -850,7 +763,7 @@ unicode = 3015;
 {
 color = 5;
 glyphname = whitecornerbracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -858,9 +771,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"741 -17 LINE",
-"741 712 LINE",
-"942 712 LINE",
+"759 -17 LINE",
+"759 696 LINE",
+"942 696 LINE",
 "942 853 LINE",
 "600 853 LINE",
 "600 -17 LINE"
@@ -871,9 +784,9 @@ closed = 1;
 nodes = (
 "638 815 LINE",
 "904 815 LINE",
-"904 750 LINE",
-"703 750 LINE",
-"703 21 LINE",
+"904 734 LINE",
+"721 734 LINE",
+"721 21 LINE",
 "638 21 LINE"
 );
 }
@@ -886,7 +799,7 @@ unicode = 300E;
 },
 {
 glyphname = whitecornerbracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -905,7 +818,7 @@ unicode = 300F;
 {
 color = 5;
 glyphname = whitelenticularbracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -947,7 +860,7 @@ unicode = 3016;
 },
 {
 glyphname = whitelenticularbracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -966,7 +879,7 @@ unicode = 3017;
 {
 color = 5;
 glyphname = whitesquarebracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -974,10 +887,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"943 -93 LINE",
-"943 -55 LINE",
-"741 -55 LINE",
-"741 815 LINE",
+"942 -93 LINE",
+"942 -55 LINE",
+"759 -55 LINE",
+"759 815 LINE",
 "942 815 LINE",
 "942 853 LINE",
 "600 853 LINE",
@@ -988,8 +901,8 @@ nodes = (
 closed = 1;
 nodes = (
 "638 815 LINE",
-"703 815 LINE",
-"703 -55 LINE",
+"721 815 LINE",
+"721 -55 LINE",
 "638 -55 LINE"
 );
 }
@@ -1002,7 +915,7 @@ unicode = 301A;
 },
 {
 glyphname = whitesquarebracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -1021,7 +934,7 @@ unicode = 301B;
 {
 color = 5;
 glyphname = whitetortoiseshellbracketleft;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1029,27 +942,27 @@ paths = (
 {
 closed = 1;
 nodes = (
-"943 43 LINE",
-"741 141 LINE",
-"741 619 LINE",
-"943 717 LINE",
-"943 866 LINE",
-"600 707 LINE",
-"600 53 LINE",
-"943 -106 LINE"
+"950 68 LINE",
+"776 160 LINE",
+"776 600 LINE",
+"950 692 LINE",
+"950 866 LINE",
+"623 694 LINE",
+"623 66 LINE",
+"950 -106 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"638 76 LINE",
-"638 684 LINE",
-"905 813 LINE",
-"905 735 LINE",
-"703 641 LINE",
-"703 119 LINE",
-"905 25 LINE",
-"905 -53 LINE"
+"661 89 LINE",
+"661 671 LINE",
+"912 803 LINE",
+"912 714 LINE",
+"738 623 LINE",
+"738 137 LINE",
+"912 46 LINE",
+"912 -43 LINE"
 );
 }
 );
@@ -1061,7 +974,7 @@ unicode = 3018;
 },
 {
 glyphname = whitetortoiseshellbracketright;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -1080,7 +993,7 @@ unicode = 3019;
 {
 color = 5;
 glyphname = bracketleft.full;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1088,28 +1001,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"683 -93 LINE",
-"683 853 LINE",
-"641 853 LINE",
-"641 -93 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "942 -93 LINE",
-"942 -51 LINE",
-"641 -51 LINE",
-"641 -93 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"954 811 LINE",
-"954 853 LINE",
+"942 -37 LINE",
+"697 -37 LINE",
+"697 797 LINE",
+"942 797 LINE",
+"942 853 LINE",
 "641 853 LINE",
-"641 811 LINE"
+"641 -93 LINE"
 );
 }
 );
@@ -1121,7 +1020,7 @@ unicode = FF3B;
 },
 {
 glyphname = bracketright.full;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -1140,7 +1039,7 @@ unicode = FF3D;
 {
 color = 5;
 glyphname = parenleft.full;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1148,36 +1047,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"927 -100 OFFCURVE",
-"929 -99 OFFCURVE",
-"930 -97 CURVE SMOOTH",
-"933 -92 OFFCURVE",
-"932 -87 OFFCURVE",
-"925 -80 CURVE",
-"748 114 OFFCURVE",
-"731 308 OFFCURVE",
-"731 380 CURVE SMOOTH",
-"731 452 OFFCURVE",
-"748 646 OFFCURVE",
-"925 840 CURVE",
-"930 845 OFFCURVE",
-"932 848 OFFCURVE",
-"932 852 CURVE SMOOTH",
-"932 854 OFFCURVE",
-"931 855 OFFCURVE",
-"930 857 CURVE SMOOTH",
-"927 862 OFFCURVE",
-"921 861 OFFCURVE",
-"913 854 CURVE SMOOTH",
-"764 730 OFFCURVE",
-"676 554 OFFCURVE",
-"676 380 CURVE SMOOTH",
-"676 206 OFFCURVE",
-"764 30 OFFCURVE",
-"913 -94 CURVE SMOOTH",
-"918 -98 OFFCURVE",
-"922 -100 OFFCURVE",
-"925 -100 CURVE SMOOTH"
+"945 -59 LINE",
+"786 91 OFFCURVE",
+"757 287 OFFCURVE",
+"757 380 CURVE SMOOTH",
+"757 472 OFFCURVE",
+"787 669 OFFCURVE",
+"945 819 CURVE",
+"904 869 LINE",
+"728 703 OFFCURVE",
+"694 478 OFFCURVE",
+"694 380 CURVE SMOOTH",
+"694 282 OFFCURVE",
+"728 57 OFFCURVE",
+"904 -110 CURVE"
 );
 }
 );
@@ -1189,7 +1072,7 @@ unicode = FF08;
 },
 {
 glyphname = parenright.full;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -1207,7 +1090,7 @@ unicode = FF09;
 },
 {
 glyphname = lowquotedoubleprime;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -1225,7 +1108,7 @@ unicode = 301F;
 },
 {
 glyphname = quotedblleft;
-lastChange = "2016-05-27 03:00:00 +0000";
+lastChange = "2016-05-27 11:52:13 +0000";
 layers = (
 {
 components = (
@@ -1234,7 +1117,7 @@ name = quoteleft;
 },
 {
 name = quoteleft;
-transform = "{1, 0, 0, 1, -195, 0}";
+transform = "{1, 0, 0, 1, -145, 0}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1246,7 +1129,7 @@ unicode = 201C;
 },
 {
 glyphname = quotedblright;
-lastChange = "2016-05-27 03:00:00 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -1264,7 +1147,7 @@ unicode = 201D;
 },
 {
 glyphname = quotedoubleprime;
-lastChange = "2016-05-25 18:26:49 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -1283,7 +1166,7 @@ unicode = 301E;
 {
 color = 5;
 glyphname = quotedoubleprimeReversed;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1292,16 +1175,8 @@ paths = (
 closed = 1;
 nodes = (
 "798 568 LINE",
-"662 825 LINE SMOOTH",
-"656 835 OFFCURVE",
-"647 841 OFFCURVE",
-"634 841 CURVE SMOOTH",
-"611 841 OFFCURVE",
-"590 824 OFFCURVE",
-"590 806 CURVE SMOOTH",
-"590 799 OFFCURVE",
-"593 791 OFFCURVE",
-"598 784 CURVE SMOOTH",
+"672 844 LINE",
+"598 803 LINE",
 "780 554 LINE"
 );
 },
@@ -1309,16 +1184,8 @@ nodes = (
 closed = 1;
 nodes = (
 "959 569 LINE",
-"842 824 LINE",
-"836 835 OFFCURVE",
-"826 840 OFFCURVE",
-"813 840 CURVE SMOOTH",
-"789 840 OFFCURVE",
-"769 824 OFFCURVE",
-"769 806 CURVE SMOOTH",
-"769 799 OFFCURVE",
-"772 791 OFFCURVE",
-"776 785 CURVE SMOOTH",
+"852 843 LINE",
+"776 804 LINE",
 "938 556 LINE"
 );
 }
@@ -1330,17 +1197,30 @@ note = cid01418;
 unicode = 301D;
 },
 {
+color = 5;
 glyphname = quoteleft;
-lastChange = "2016-05-27 03:02:13 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
-components = (
+layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
+paths = (
 {
-name = comma.full;
-transform = "{-1, 0, 0, -1, 986, 673}";
+closed = 1;
+nodes = (
+"930 550 LINE",
+"930 649 LINE",
+"872 649 LINE",
+"872 709 OFFCURVE",
+"883 729 OFFCURVE",
+"919 732 CURVE",
+"919 773 LINE",
+"857 767 OFFCURVE",
+"831 730 OFFCURVE",
+"831 649 CURVE SMOOTH",
+"831 550 LINE"
+);
 }
 );
-layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
 width = 1000;
 }
 );
@@ -1349,7 +1229,7 @@ unicode = 2018;
 },
 {
 glyphname = quoteright;
-lastChange = "2016-05-27 03:00:00 +0000";
+lastChange = "2016-05-25 18:37:00 +0000";
 layers = (
 {
 components = (
@@ -1367,17 +1247,17 @@ unicode = 2019;
 },
 {
 glyphname = colon.full;
-lastChange = "2016-05-27 03:55:49 +0000";
+lastChange = "2016-05-27 11:53:13 +0000";
 layers = (
 {
 components = (
 {
 name = period.full;
-transform = "{1, 0, 0, 1, 371, 526}";
+transform = "{1, 0, 0, 1, 408, 629}";
 },
 {
 name = period.full;
-transform = "{1, 0, 0, 1, 371, 173}";
+transform = "{1, 0, 0, 1, 408, 187}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1388,21 +1268,39 @@ note = cid59017;
 unicode = FF1A;
 },
 {
+color = 5;
 glyphname = semicolon.full;
-lastChange = "2016-05-27 03:54:26 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
-components = (
+layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
+paths = (
 {
-name = period.full;
-transform = "{1, 0, 0, 1, 371, 526}";
+closed = 1;
+nodes = (
+"523 -8 OFFCURVE",
+"549 29 OFFCURVE",
+"549 110 CURVE SMOOTH",
+"549 209 LINE",
+"450 209 LINE",
+"450 110 LINE",
+"508 110 LINE",
+"508 50 OFFCURVE",
+"497 30 OFFCURVE",
+"461 27 CURVE",
+"461 -14 LINE"
+);
 },
 {
-name = comma.full;
-transform = "{1, 0, 0, 1, 374, 120}";
+closed = 1;
+nodes = (
+"549 551 LINE",
+"549 650 LINE",
+"450 650 LINE",
+"450 551 LINE"
+);
 }
 );
-layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
 width = 1000;
 }
 );
@@ -1412,7 +1310,7 @@ unicode = FF1B;
 {
 color = 5;
 glyphname = "dot-kata";
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1443,21 +1341,21 @@ unicode = 30FB;
 },
 {
 glyphname = ellipsis;
-lastChange = "2016-05-27 03:56:29 +0000";
+lastChange = "2016-05-27 11:54:54 +0000";
 layers = (
 {
 components = (
 {
 name = period.full;
-transform = "{1, 0, 0, 1, 39, 349}";
+transform = "{1, 0, 0, 1, 76, 409}";
 },
 {
 name = period.full;
-transform = "{1, 0, 0, 1, 371, 349}";
+transform = "{1, 0, 0, 1, 409, 409}";
 },
 {
 name = period.full;
-transform = "{1, 0, 0, 1, 703, 349}";
+transform = "{1, 0, 0, 1, 741, 409}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1468,17 +1366,17 @@ unicode = 2026;
 },
 {
 glyphname = twodotenleader;
-lastChange = "2016-05-27 03:57:00 +0000";
+lastChange = "2016-05-27 11:55:18 +0000";
 layers = (
 {
 components = (
 {
 name = period.full;
-transform = "{1, 0, 0, 1, 120, 349}";
+transform = "{1, 0, 0, 1, 157, 409}";
 },
 {
 name = period.full;
-transform = "{1, 0, 0, 1, 622, 349}";
+transform = "{1, 0, 0, 1, 659, 409}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -1489,7 +1387,7 @@ unicode = 2025;
 },
 {
 glyphname = "comma-han.half";
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1505,7 +1403,7 @@ note = cid01390;
 },
 {
 glyphname = "period-han.half";
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1521,7 +1419,7 @@ note = cid01391;
 },
 {
 glyphname = comma.full.half;
-lastChange = "2016-05-27 03:01:13 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1537,7 +1435,7 @@ note = cid59003;
 },
 {
 glyphname = period.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1553,7 +1451,7 @@ note = cid59005;
 },
 {
 glyphname = cornerbracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1570,7 +1468,7 @@ note = cid01401;
 },
 {
 glyphname = cornerbracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1587,7 +1485,7 @@ note = cid01402;
 },
 {
 glyphname = whiteparenleft.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1604,7 +1502,7 @@ note = cid59085;
 },
 {
 glyphname = whiteparenright.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1621,7 +1519,7 @@ note = cid59086;
 },
 {
 glyphname = anglebracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1638,7 +1536,7 @@ note = cid01397;
 },
 {
 glyphname = anglebracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1655,7 +1553,7 @@ note = cid01398;
 },
 {
 glyphname = blacklenticularbracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1672,7 +1570,7 @@ note = cid01405;
 },
 {
 glyphname = blacklenticularbracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1689,7 +1587,7 @@ note = cid01406;
 },
 {
 glyphname = braceleft.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1706,7 +1604,7 @@ note = cid59082;
 },
 {
 glyphname = braceright.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1723,7 +1621,7 @@ note = cid59084;
 },
 {
 glyphname = bracketleft.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1740,7 +1638,7 @@ note = cid59050;
 },
 {
 glyphname = bracketright.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1757,7 +1655,7 @@ note = cid59052;
 },
 {
 glyphname = dblanglebracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1774,7 +1672,7 @@ note = cid01399;
 },
 {
 glyphname = dblanglebracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1791,7 +1689,7 @@ note = cid01400;
 },
 {
 glyphname = parenleft.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1808,7 +1706,7 @@ note = cid58999;
 },
 {
 glyphname = parenright.full.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1825,7 +1723,7 @@ note = cid59000;
 },
 {
 glyphname = tortoiseshellbracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1842,7 +1740,7 @@ note = cid01409;
 },
 {
 glyphname = tortoiseshellbracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1859,7 +1757,7 @@ note = cid01410;
 },
 {
 glyphname = whitecornerbracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1876,7 +1774,7 @@ note = cid01403;
 },
 {
 glyphname = whitecornerbracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1893,7 +1791,7 @@ note = cid01404;
 },
 {
 glyphname = whitelenticularbracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1910,7 +1808,7 @@ note = cid01411;
 },
 {
 glyphname = whitelenticularbracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1927,7 +1825,7 @@ note = cid01412;
 },
 {
 glyphname = whitesquarebracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1944,7 +1842,7 @@ note = cid01415;
 },
 {
 glyphname = whitesquarebracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1961,7 +1859,7 @@ note = cid01416;
 },
 {
 glyphname = whitetortoiseshellbracketleft.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1978,7 +1876,7 @@ note = cid01413;
 },
 {
 glyphname = whitetortoiseshellbracketright.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -1995,7 +1893,7 @@ note = cid01414;
 },
 {
 glyphname = lowquotedoubleprime.half;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2011,7 +1909,7 @@ note = cid01420;
 },
 {
 glyphname = quotedblleft.half;
-lastChange = "2016-05-27 03:00:00 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2028,7 +1926,7 @@ note = cid00721;
 },
 {
 glyphname = quotedblright.half;
-lastChange = "2016-05-27 03:00:00 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2045,7 +1943,7 @@ note = cid00722;
 },
 {
 glyphname = quotedoubleprime.half;
-lastChange = "2016-05-27 03:00:58 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2061,7 +1959,7 @@ note = cid01419;
 },
 {
 glyphname = quotedoubleprimeReversed.half;
-lastChange = "2016-05-26 06:09:23 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2078,7 +1976,7 @@ note = cid01418;
 },
 {
 glyphname = quoteleft.half;
-lastChange = "2016-05-27 03:00:00 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2095,7 +1993,7 @@ note = cid00718;
 },
 {
 glyphname = quoteright.half;
-lastChange = "2016-05-27 03:00:00 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2112,13 +2010,13 @@ note = cid00719;
 },
 {
 glyphname = "comma-han.vert";
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
 name = "comma-han";
-transform = "{1, 0, 0, 1, 610, 600}";
+transform = "{1, 0, 0, 1, 657, 657}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2129,13 +2027,13 @@ note = cid01390;
 },
 {
 glyphname = "period-han.vert";
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
 name = "period-han";
-transform = "{-1, 0, 0, -1, 1027, 739}";
+transform = "{-1, 0, 0, -1, 1016, 756}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2146,13 +2044,12 @@ note = cid01391;
 },
 {
 glyphname = comma.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
-name = "comma-han";
-transform = "{1, 0, 0, 1, 652, 661}";
+name = "comma-han.vert";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2163,13 +2060,12 @@ note = cid59003;
 },
 {
 glyphname = period.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
-name = "period-han";
-transform = "{-1, 0, 0, -1, 1000, 760}";
+name = "period-han.vert";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2180,7 +2076,7 @@ note = cid59005;
 },
 {
 glyphname = anglebracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2197,7 +2093,7 @@ note = cid01397;
 },
 {
 glyphname = anglebracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2214,7 +2110,7 @@ note = cid01398;
 },
 {
 glyphname = blacklenticularbracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2231,7 +2127,7 @@ note = cid01405;
 },
 {
 glyphname = blacklenticularbracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2248,7 +2144,7 @@ note = cid01406;
 },
 {
 glyphname = braceleft.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2265,7 +2161,7 @@ note = cid59082;
 },
 {
 glyphname = braceright.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2282,7 +2178,7 @@ note = cid59084;
 },
 {
 glyphname = bracketleft.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2299,7 +2195,7 @@ note = cid59050;
 },
 {
 glyphname = bracketright.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2316,7 +2212,7 @@ note = cid59052;
 },
 {
 glyphname = cornerbracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2333,7 +2229,7 @@ note = cid01401;
 },
 {
 glyphname = cornerbracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2350,7 +2246,7 @@ note = cid01402;
 },
 {
 glyphname = dblanglebracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2367,7 +2263,7 @@ note = cid01399;
 },
 {
 glyphname = dblanglebracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2384,7 +2280,7 @@ note = cid01400;
 },
 {
 glyphname = tortoiseshellbracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2401,7 +2297,7 @@ note = cid01409;
 },
 {
 glyphname = tortoiseshellbracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2418,7 +2314,7 @@ note = cid01410;
 },
 {
 glyphname = whiteparenleft.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2435,7 +2331,7 @@ note = cid59085;
 },
 {
 glyphname = whiteparenright.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2452,7 +2348,7 @@ note = cid59086;
 },
 {
 glyphname = parenleft.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2469,7 +2365,7 @@ note = cid58999;
 },
 {
 glyphname = parenright.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2486,7 +2382,7 @@ note = cid59000;
 },
 {
 glyphname = whitesquarebracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2503,7 +2399,7 @@ note = cid01415;
 },
 {
 glyphname = whitesquarebracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2520,7 +2416,7 @@ note = cid01416;
 },
 {
 glyphname = whitetortoiseshellbracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2537,7 +2433,7 @@ note = cid01413;
 },
 {
 glyphname = whitetortoiseshellbracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2554,7 +2450,7 @@ note = cid01414;
 },
 {
 glyphname = whitecornerbracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2571,7 +2467,7 @@ note = cid01403;
 },
 {
 glyphname = whitecornerbracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2588,7 +2484,7 @@ note = cid01404;
 },
 {
 glyphname = whitelenticularbracketleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2605,7 +2501,7 @@ note = cid01411;
 },
 {
 glyphname = whitelenticularbracketright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2622,13 +2518,13 @@ note = cid01412;
 },
 {
 glyphname = lowquotedoubleprime.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
 name = quotedoubleprimeReversed;
-transform = "{1, 0, 0, -1, -558, 1387}";
+transform = "{1, 0, 0, -1, -573, 1396}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2639,12 +2535,13 @@ note = cid01420;
 },
 {
 glyphname = quotedblleft.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
-name = quotedoubleprimeReversed.vert;
+name = quotedoubleprimeReversed;
+transform = "{-1, 0, 0, 1, 1574, -636}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2655,12 +2552,13 @@ note = cid00721;
 },
 {
 glyphname = quotedblright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
-name = lowquotedoubleprime.vert;
+name = quotedoubleprimeReversed;
+transform = "{1, 0, 0, -1, -573, 1396}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2671,12 +2569,13 @@ note = cid00722;
 },
 {
 glyphname = quotedoubleprime.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
-name = lowquotedoubleprime.vert;
+name = quotedoubleprimeReversed;
+transform = "{1, 0, 0, -1, -573, 1396}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2687,13 +2586,13 @@ note = cid01419;
 },
 {
 glyphname = quotedoubleprimeReversed.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
 {
 name = quotedoubleprimeReversed;
-transform = "{-1, 0, 0, 1, 1558, -626}";
+transform = "{-1, 0, 0, 1, 1574, -636}";
 }
 );
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2705,7 +2604,7 @@ note = cid01418;
 {
 color = 5;
 glyphname = quoteleft.vert;
-lastChange = "2016-05-27 13:46:01 +0000";
+lastChange = "2016-05-27 13:37:00 +0000";
 layers = (
 {
 layerId = "3414DB1E-DCA6-4525-BBC7-543CEEA14C82";
@@ -2713,18 +2612,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"911 214 OFFCURVE",
-"902 208 OFFCURVE",
-"896 198 CURVE SMOOTH",
-"760 -59 LINE",
-"778 -73 LINE",
-"960 157 LINE SMOOTH",
-"965 164 OFFCURVE",
-"968 172 OFFCURVE",
-"968 179 CURVE SMOOTH",
-"968 197 OFFCURVE",
-"947 214 OFFCURVE",
-"924 214 CURVE SMOOTH"
+"976 167 LINE",
+"902 208 LINE",
+"776 -68 LINE",
+"794 -82 LINE"
 );
 }
 );
@@ -2735,7 +2626,7 @@ note = cid00718;
 },
 {
 glyphname = quoteright.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2752,7 +2643,7 @@ note = cid00719;
 },
 {
 glyphname = colon.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2769,7 +2660,7 @@ note = cid59017;
 },
 {
 glyphname = semicolon.full.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2786,7 +2677,7 @@ note = cid59018;
 },
 {
 glyphname = ellipsis.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2802,7 +2693,7 @@ width = 1000;
 },
 {
 glyphname = twodotenleader.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2818,7 +2709,7 @@ width = 1000;
 },
 {
 glyphname = "comma-han.half.vert";
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2835,7 +2726,7 @@ note = cid01390;
 },
 {
 glyphname = "period-han.half.vert";
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2852,7 +2743,7 @@ note = cid01391;
 },
 {
 glyphname = comma.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2869,7 +2760,7 @@ note = cid59003;
 },
 {
 glyphname = period.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2886,7 +2777,7 @@ note = cid59005;
 },
 {
 glyphname = cornerbracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2904,7 +2795,7 @@ note = cid01401;
 },
 {
 glyphname = cornerbracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2921,7 +2812,7 @@ note = cid01402;
 },
 {
 glyphname = whiteparenleft.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2939,7 +2830,7 @@ note = cid59085;
 },
 {
 glyphname = whiteparenright.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2956,7 +2847,7 @@ note = cid59086;
 },
 {
 glyphname = anglebracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2974,7 +2865,7 @@ note = cid01397;
 },
 {
 glyphname = anglebracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -2991,7 +2882,7 @@ note = cid01398;
 },
 {
 glyphname = blacklenticularbracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3009,7 +2900,7 @@ note = cid01405;
 },
 {
 glyphname = blacklenticularbracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3026,7 +2917,7 @@ note = cid01406;
 },
 {
 glyphname = braceleft.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3044,7 +2935,7 @@ note = cid59082;
 },
 {
 glyphname = braceright.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3061,7 +2952,7 @@ note = cid59084;
 },
 {
 glyphname = bracketleft.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3079,7 +2970,7 @@ note = cid59050;
 },
 {
 glyphname = bracketright.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3096,7 +2987,7 @@ note = cid59052;
 },
 {
 glyphname = dblanglebracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3114,7 +3005,7 @@ note = cid01399;
 },
 {
 glyphname = dblanglebracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3131,7 +3022,7 @@ note = cid01400;
 },
 {
 glyphname = parenleft.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3149,7 +3040,7 @@ note = cid58999;
 },
 {
 glyphname = parenright.full.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3166,7 +3057,7 @@ note = cid59000;
 },
 {
 glyphname = tortoiseshellbracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3184,7 +3075,7 @@ note = cid01409;
 },
 {
 glyphname = tortoiseshellbracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3201,7 +3092,7 @@ note = cid01410;
 },
 {
 glyphname = whitecornerbracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3219,7 +3110,7 @@ note = cid01403;
 },
 {
 glyphname = whitecornerbracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3236,7 +3127,7 @@ note = cid01404;
 },
 {
 glyphname = whitelenticularbracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3254,7 +3145,7 @@ note = cid01411;
 },
 {
 glyphname = whitelenticularbracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3271,7 +3162,7 @@ note = cid01412;
 },
 {
 glyphname = whitesquarebracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3289,7 +3180,7 @@ note = cid01415;
 },
 {
 glyphname = whitesquarebracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3306,7 +3197,7 @@ note = cid01416;
 },
 {
 glyphname = whitetortoiseshellbracketleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3324,7 +3215,7 @@ note = cid01413;
 },
 {
 glyphname = whitetortoiseshellbracketright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3341,7 +3232,7 @@ note = cid01414;
 },
 {
 glyphname = lowquotedoubleprime.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3358,7 +3249,7 @@ note = cid01420;
 },
 {
 glyphname = quotedblleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3376,7 +3267,7 @@ note = cid00721;
 },
 {
 glyphname = quotedblright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3393,7 +3284,7 @@ note = cid00722;
 },
 {
 glyphname = quotedoubleprime.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3410,7 +3301,7 @@ note = cid01419;
 },
 {
 glyphname = quotedoubleprimeReversed.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3428,7 +3319,7 @@ note = cid01418;
 },
 {
 glyphname = quoteleft.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3446,7 +3337,7 @@ note = cid00718;
 },
 {
 glyphname = quoteright.half.vert;
-lastChange = "2016-05-25 19:21:28 +0000";
+lastChange = "2016-05-26 07:58:48 +0000";
 layers = (
 {
 components = (
@@ -3464,6 +3355,12 @@ note = cid00719;
 );
 instances = (
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--symbol";
+}
+);
 instanceInterpolations = {
 "3414DB1E-DCA6-4525-BBC7-543CEEA14C82" = 1;
 };
@@ -3472,5 +3369,5 @@ name = R;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 14;
+versionMinor = 15;
 }

@@ -2,17 +2,17 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8" /> 
-<title>約味フォント 検証</title> 
+<title>約猫フォント calt 検証</title> 
 <script type="text/javascript">
 </script>
 <style type="text/css">
 @font-face {
   font-family: 'Yakumono';
-  src: url('YakuAdjGothic-R.woff') format('woff'), url('YakuAdjGothic-R.otf') format('opentype');
+  src: url('YakuCaltMincho-R.woff2') format('woff2');
   font-weight:300 ;
 }
 body {
-	font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+	font-family:"游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ ゴシック", "MS Gothic", sans-serif;
     font-kerning: none;
 	margin:2.5rem;
 }
@@ -29,9 +29,8 @@ h1 {
 h2 {
 	font-size:1.2rem ;
 }
-
 .Yakumono {
-	font-family:Yakumono, sans-serif ;
+	font-family:Yakumono, serif ;
 	font-weight:300 ;
 }
 .vert {
@@ -39,32 +38,34 @@ h2 {
 	-moz-writing-mode: vertical-rl;
 	-ms-writing-mode: vertical-rl;
 	writing-mode: vertical-rl;
+	-webkit-text-orientation: upright; 
+	-moz-text-orientation: upright; 
+	-ms-text-orientation: upright;
+	text-orientation: upright;
 }
-.chws{
-	-webkit-font-feature-settings: 'chws' 1;
-	-moz-font-feature-settings: 'chws' 1;
-	font-feature-settings: 'chws' 1;
+.calt{
+	-webkit-font-feature-settings: 'calt' 1;
+	-moz-font-feature-settings: 'calt' 1;
+	font-feature-settings: 'calt' 1;
 }
-.vchw{
-    -webkit-font-feature-settings: 'vchw' 1;
-    -moz-font-feature-settings: 'vchw' 1;
-    font-feature-settings: 'vchw' 1;
+.caltoff {
+	-webkit-font-feature-settings: 'calt' 0;
+	-moz-font-feature-settings: 'calt' 0;
+	font-feature-settings: 'calt' 0;
 }
-
 .description {
 	font-size:0.9rem ;
 	font-weight:300 ;
 }
 </style>
-
 <body>
 
-<h1>約味フォント chws/vchw 検証</h1>
+<h1>約猫フォント calt 検証</h1>
 
 <hr />
 
-<h2>ヨコ組み　<span class="description">chwsを設定をしている</span></h2>
-<div class="Yakumono chws">
+<h2>ヨコ組み　<span class="description">caltを有効にしている</span></h2>
+<div class="Yakumono calt">
 <div>
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
@@ -89,7 +90,33 @@ h2 {
 
 <hr />
 
-<h2>ヨコ組み　<span class="description">chwsを設定していない＝ブラウザのデフォルト状態</span></h2>
+<h2>ヨコ組み　<span class="description">caltを無効にしている</span></h2>
+<div class="Yakumono caltoff">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>ヨコ組み　<span class="description">caltの設定はしていない＝ブラウザのデフォルト状態</span></h2>
 <div class="Yakumono">
 <div>
 （あ）。（（（あ。）））。。。。<br />
@@ -115,8 +142,8 @@ h2 {
 
 <hr />
 
-<h2>タテ組み　<span class="description">vchwを設定している</span></h2>
-<div class="Yakumono vert vchw">
+<h2>タテ組み　<span class="description">caltを有効にしている</span></h2>
+<div class="Yakumono vert calt">
 <div>
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
@@ -141,7 +168,33 @@ h2 {
 
 <hr />
 
-<h2>タテ組み　<span class="description">vchwを設定していない＝ブラウザのデフォルト状態</span></h2>
+<h2>タテ組み　<span class="description">caltを無効にしている</span></h2>
+<div class="Yakumono vert caltoff">
+<div>
+（あ）。（（（あ。）））。。。。<br />
+｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
+「あ」．「「「あ。」」」。。。。<br />
+『あ』，『『『あ、』』』、、、、<br />
+〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
+《あ》：《《《あ、》》》、、、、<br />
+【あ】。【【【あ。】】】。。。。<br />
+〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
+〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
+〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
+［あ］・［［［あ。］］］。。。。<br />
+〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
+｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
+〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
+〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
+（あ）；（（（あ。）））。。。。<br />
+“あ”。“““あ。”””。。。。<br />
+‘あ’。‘‘‘あ。’’’。。。。<br />
+</div>
+</div>
+
+<hr />
+
+<h2>タテ組み　<span class="description">caltの設定はしていない＝ブラウザのデフォルト状態</span></h2>
 <div class="Yakumono vert">
 <div>
 （あ）。（（（あ。）））。。。。<br />
