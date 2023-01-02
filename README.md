@@ -9,7 +9,7 @@
 * [https://tama-san.com/yakucalt-font/](https://tama-san.com/yakucalt-font)
 
 ## ライセンス
-なし。無制限で使用可能。改変したらフォント名変更を強く推奨。
+無制限で使用可能。改変したらフォント名変更を強く推奨。
 
 ## 更新履歴
 2023.1.2
