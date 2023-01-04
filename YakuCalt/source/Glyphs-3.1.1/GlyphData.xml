@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE glyphData [
+<!ELEMENT glyphData (glyph)+>
+<!ELEMENT glyph EMPTY>
+<!ATTLIST glyph
+	unicode			CDATA		#IMPLIED
+	name			CDATA		#REQUIRED
+	sortName		CDATA		#IMPLIED
+	sortNameKeep	CDATA		#IMPLIED
+	category		CDATA		#REQUIRED
+	subCategory		CDATA		#IMPLIED
+	script			CDATA		#IMPLIED
+	description		CDATA		#REQUIRED
+	production		CDATA		#IMPLIED
+	altNames		CDATA		#IMPLIED
+	decompose		CDATA		#IMPLIED
+	anchors			CDATA		#IMPLIED
+	accents			CDATA		#IMPLIED>
+]>
+<glyphData>
+
+<!--ヨコ組用 全角-->
+	<glyph unicode="3001" name="comma-han" sortName="1kutoten" category="1. ヨコ組用 全角" production="uni3001" />
+	<glyph unicode="3002" name="period-han" sortName="1kutoten" category="1. ヨコ組用 全角" production="uni3002" />
+	<glyph unicode="FF0C" name="comma.full" sortName="2kutoten" category="1. ヨコ組用 全角" production="uniFF0C" />
+	<glyph unicode="FF0E" name="period.full" sortName="2kutoten" category="1. ヨコ組用 全角" production="uniFF0E" />
+	<glyph unicode="FF5F" name="whiteparenleft.full" sortName="kakko" category="1. ヨコ組用 全角" production="uniFF5F" />
+	<glyph unicode="FF60" name="whiteparenright.full" sortName="kakko" category="1. ヨコ組用 全角" production="uniFF60" />
+	<glyph unicode="3008" name="anglebracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni3008" />
+	<glyph unicode="3009" name="anglebracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni3009" />
+	<glyph unicode="3010" name="blacklenticularbracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni3010" />
+	<glyph unicode="3011" name="blacklenticularbracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni3011" />
+	<glyph unicode="FF5B" name="braceleft.full" sortName="kakko" category="1. ヨコ組用 全角" production="uniFF5B" />
+	<glyph unicode="FF5D" name="braceright.full" sortName="kakko" category="1. ヨコ組用 全角" production="uniFF5D" />
+	<glyph unicode="300C" name="cornerbracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni300C" />
+	<glyph unicode="300D" name="cornerbracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni300D" />
+	<glyph unicode="300A" name="dblanglebracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni300A" />
+	<glyph unicode="300B" name="dblanglebracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni300B" />
+	<glyph unicode="3014" name="tortoiseshellbracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni3014" />
+	<glyph unicode="3015" name="tortoiseshellbracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni3015" />
+	<glyph unicode="300E" name="whitecornerbracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni300E" />
+	<glyph unicode="300F" name="whitecornerbracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni300F" />
+	<glyph unicode="3016" name="whitelenticularbracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni3016" />
+	<glyph unicode="3017" name="whitelenticularbracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni3017" />
+	<glyph unicode="301A" name="whitesquarebracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni301A" />
+	<glyph unicode="301B" name="whitesquarebracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni301B" />
+	<glyph unicode="3018" name="whitetortoiseshellbracketleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni3018" />
+	<glyph unicode="3019" name="whitetortoiseshellbracketright" sortName="kakko" category="1. ヨコ組用 全角" production="uni3019" />
+	<glyph unicode="FF3B" name="bracketleft.full" sortName="kakko" category="1. ヨコ組用 全角" production="uniFF3B" />
+	<glyph unicode="FF3D" name="bracketright.full" sortName="kakko" category="1. ヨコ組用 全角" production="uniFF3D" />
+	<glyph unicode="FF08" name="parenleft.full" sortName="kakko" category="1. ヨコ組用 全角" production="uniFF08" />
+	<glyph unicode="FF09" name="parenright.full" sortName="kakko" category="1. ヨコ組用 全角" production="uniFF09" />
+	<glyph unicode="301F" name="lowquotedoubleprime" sortName="kakko" category="1. ヨコ組用 全角" production="uni301F" />
+	<glyph unicode="201C" name="quotedblleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni201C" />
+	<glyph unicode="201D" name="quotedblright" sortName="kakko" category="1. ヨコ組用 全角" production="uni201D" />
+	<glyph unicode="301E" name="quotedoubleprime" sortName="kakko" category="1. ヨコ組用 全角" production="uni301E" />
+	<glyph unicode="301D" name="quotedoubleprimeReversed" sortName="kakko" category="1. ヨコ組用 全角" production="uni301D" />
+	<glyph unicode="2018" name="quoteleft" sortName="kakko" category="1. ヨコ組用 全角" production="uni2018" />
+	<glyph unicode="2019" name="quoteright" sortName="kakko" category="1. ヨコ組用 全角" production="uni2019" />
+	<glyph unicode="30FB" name="dot-kata" sortName="tyuten" category="1. ヨコ組用 全角" production="uni30FB" />
+	<glyph unicode="FF1A" name="colon.full" sortName="tyuten" category="1. ヨコ組用 全角" production="uniFF1A" />
+	<glyph unicode="FF1B" name="semicolon.full" sortName="tyuten" category="1. ヨコ組用 全角" production="uniFF1B" />
+	<glyph unicode="2026" name="ellipsis" sortName="yakumono" category="1. ヨコ組用 全角" production="uni2026" />
+	<glyph unicode="2025" name="twodotenleader" sortName="yakumono" category="1. ヨコ組用 全角" production="uni2025" />
+
+<!--ヨコ組用 半角-->
+	<glyph name="comma-han.half" sortName="1kutoten" category="2. ヨコ組み用 半角" />
+	<glyph name="period-han.half" sortName="1kutoten" category="2. ヨコ組み用 半角" />
+	<glyph name="comma.full.half" sortName="2kutoten" category="2. ヨコ組み用 半角" />
+	<glyph name="period.full.half" sortName="2kutoten" category="2. ヨコ組み用 半角" />
+	<glyph name="cornerbracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="cornerbracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whiteparenleft.full.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whiteparenright.full.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="anglebracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="anglebracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="blacklenticularbracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="blacklenticularbracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="braceleft.full.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="braceright.full.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="bracketleft.full.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="bracketright.full.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="dblanglebracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="dblanglebracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="parenleft.full.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="parenright.full.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="tortoiseshellbracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="tortoiseshellbracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whitecornerbracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whitecornerbracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whitelenticularbracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whitelenticularbracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whitesquarebracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whitesquarebracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whitetortoiseshellbracketleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="whitetortoiseshellbracketright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="lowquotedoubleprime.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="quotedblleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="quotedblright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="quotedoubleprime.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="quotedoubleprimeReversed.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="quoteleft.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+	<glyph name="quoteright.half" sortName="kakko" category="2. ヨコ組み用 半角" />
+
+<!--タテ組用 全角-->
+	<glyph name="comma-han.vert" sortName="1kutoten" category="3. タテ組用 全角" />
+	<glyph name="period-han.vert" sortName="1kutoten" category="3. タテ組用 全角" />
+	<glyph name="comma.full.vert" sortName="2kutoten" category="3. タテ組用 全角" />
+	<glyph name="period.full.vert" sortName="2kutoten" category="3. タテ組用 全角" />
+	<glyph name="whiteparenleft.full.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whiteparenright.full.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="anglebracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="anglebracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="blacklenticularbracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="blacklenticularbracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="braceleft.full.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="braceright.full.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="cornerbracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="cornerbracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="dblanglebracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="dblanglebracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="tortoiseshellbracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="tortoiseshellbracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whitecornerbracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whitecornerbracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whitelenticularbracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whitelenticularbracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whitesquarebracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whitesquarebracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whitetortoiseshellbracketleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="whitetortoiseshellbracketright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="bracketleft.full.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="bracketright.full.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="parenleft.full.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="parenright.full.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="lowquotedoubleprime.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="quotedblleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="quotedblright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="quotedoubleprime.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="quotedoubleprimeReversed.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="quoteleft.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="quoteright.vert" sortName="kakko" category="3. タテ組用 全角" />
+	<glyph name="dot-kata.vert" sortName="tyuten" category="3. タテ組用 全角" />
+	<glyph name="colon.full.vert" sortName="tyuten" category="3. タテ組用 全角" />
+	<glyph name="semicolon.full.vert" sortName="tyuten" category="3. タテ組用 全角" />
+	<glyph name="ellipsis.vert" sortName="yakumono" category="3. タテ組用 全角" />
+	<glyph name="twodotenleader.vert" sortName="yakumono" category="3. タテ組用 全角" />
+
+<!--タテ組用 半角-->
+	<glyph name="comma-han.half.vert" sortName="1kutoten" category="4. タテ組み用 半角" />
+	<glyph name="period-han.half.vert" sortName="1kutoten" category="4. タテ組み用 半角" />
+	<glyph name="comma.full.half.vert" sortName="2kutoten" category="4. タテ組み用 半角" />
+	<glyph name="period.full.half.vert" sortName="2kutoten" category="4. タテ組み用 半角" />
+	<glyph name="cornerbracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="cornerbracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whiteparenleft.full.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whiteparenright.full.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="anglebracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="anglebracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="blacklenticularbracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="blacklenticularbracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="braceleft.full.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="braceright.full.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="bracketleft.full.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="bracketright.full.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="dblanglebracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="dblanglebracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="parenleft.full.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="parenright.full.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="tortoiseshellbracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="tortoiseshellbracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whitecornerbracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whitecornerbracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whitelenticularbracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whitelenticularbracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whitesquarebracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whitesquarebracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whitetortoiseshellbracketleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="whitetortoiseshellbracketright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="lowquotedoubleprime.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="quotedblleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="quotedblright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="quotedoubleprime.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="quotedoubleprimeReversed.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="quoteleft.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+	<glyph name="quoteright.half.vert" sortName="kakko" category="4. タテ組み用 半角" />
+
+</glyphData>
