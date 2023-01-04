@@ -6,43 +6,43 @@
 <script type="text/javascript">
 </script>
 <style type="text/css">
+
+/*フォントとOpenType機能*/
 @font-face {
-  font-family: 'Yakumono';
-  src: url('YakuAdjMincho-R.woff2') format('woff2');
-  font-weight:300 ;
+	font-family: 'Yakumono';
+	src: url('YakuAdjMincho-R.woff2') format('woff2');
+	font-weight:400;
+	font-display: swap;
 }
-body {
-	font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ ゴシック", "MS Gothic", sans-serif;
-    font-kerning: none;
-	margin:2.5rem;
+html, body {
+	font-family: "游ゴシック体",
+				 YuGothic,
+				 "游ゴシック Medium",
+				 "Yu Gothic Medium",
+				 "游ゴシック",
+				 "Yu Gothic", 
+				 "ヒラギノ角ゴ ProN W3",
+				 "Hiragino Kaku Gothic ProN",
+				 Meiryo,
+				 "メイリオ",
+				 "MS Gothic",
+				 "ＭＳ ゴシック",
+				 sans-serif;
+	font-weight:400;
 }
 div {
-	font-size:1.2rem ;
-}
-h1 {
-	font-size:1.5rem ;
-    font-kerning: normal;
-    -webkit-font-feature-settings: 'palt';
-    -moz-font-feature-settings: 'palt';
-    font-feature-settings: 'palt';
-}
-h2 {
-	font-size:1.2rem ;
-}
-
-.Yakumono {
-	font-family:Yakumono, serif ;
-	font-weight:300 ;
-}
-.vert {
-	-webkit-writing-mode: vertical-rl;
-	-moz-writing-mode: vertical-rl;
-	-ms-writing-mode: vertical-rl;
-	writing-mode: vertical-rl;
-	-webkit-text-orientation: upright; 
-	-moz-text-orientation: upright; 
-	-ms-text-orientation: upright;
-	text-orientation: upright;
+	font-family: Yakumono,
+				 "游明朝体",
+				 YuMincho,
+				 "游明朝 Medium",
+				 "Yu Mincho Medium",
+				 "游明朝",
+				 "Yu Mincho", 
+				 "ヒラギノ明朝 ProN",
+				 "Hiragino Mincho ProN",
+				 "MS Mincho",
+				 "ＭＳ 明朝",
+				 serif;
 }
 .chws{
 	-webkit-font-feature-settings: 'chws' 1;
@@ -55,9 +55,35 @@ h2 {
     font-feature-settings: 'vchw' 1;
 }
 
+/*レイアウト*/
+html, body {
+	font-size:100% ;
+    font-kerning: none;
+	margin:2.5rem;
+	hanging-punctuation: allow-end;
+}
+h1 {
+	font-size:1.5rem ;
+}
+h2 {
+	font-size:1.2rem;
+}
+.vertical {
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+	-webkit-text-orientation: upright; 
+	-moz-text-orientation: upright; 
+	-ms-text-orientation: upright;
+	text-orientation: upright;
+}
+div {
+	font-size:1.2rem;
+}
 .description {
-	font-size:0.9rem ;
-	font-weight:300 ;
+	font-size:0.9rem;
+	font-weight:300;
 }
 </style>
 
@@ -68,8 +94,7 @@ h2 {
 <hr />
 
 <h2>ヨコ組み　<span class="description">chwsを設定をしている</span></h2>
-<div class="Yakumono chws">
-<div>
+<div class="chws">
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
 「あ」．「「「あ。」」」。。。。<br />
@@ -88,13 +113,11 @@ h2 {
 （あ）；（（（あ。）））。。。。<br />
 “あ”。“““あ。”””。。。。<br />
 ‘あ’。‘‘‘あ。’’’。。。。<br />
-</div>
 </div>
 
 <hr />
 
 <h2>ヨコ組み　<span class="description">chwsを設定していない＝ブラウザのデフォルト状態</span></h2>
-<div class="Yakumono">
 <div>
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
@@ -114,14 +137,12 @@ h2 {
 （あ）；（（（あ。）））。。。。<br />
 “あ”。“““あ。”””。。。。<br />
 ‘あ’。‘‘‘あ。’’’。。。。<br />
-</div>
 </div>
 
 <hr />
 
 <h2>タテ組み　<span class="description">vchwを設定している</span></h2>
-<div class="Yakumono vert vchw">
-<div>
+<div class="vertical vchw">
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
 「あ」．「「「あ。」」」。。。。<br />
@@ -140,14 +161,12 @@ h2 {
 （あ）；（（（あ。）））。。。。<br />
 “あ”。“““あ。”””。。。。<br />
 ‘あ’。‘‘‘あ。’’’。。。。<br />
-</div>
 </div>
 
 <hr />
 
 <h2>タテ組み　<span class="description">vchwを設定していない＝ブラウザのデフォルト状態</span></h2>
-<div class="Yakumono vert">
-<div>
+<div class="vertical">
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
 「あ」．「「「あ。」」」。。。。<br />
@@ -167,10 +186,8 @@ h2 {
 “あ”。“““あ。”””。。。。<br />
 ‘あ’。‘‘‘あ。’’’。。。。<br />
 </div>
-</div>
 
 <hr />
-
 
 </body>
 </head>

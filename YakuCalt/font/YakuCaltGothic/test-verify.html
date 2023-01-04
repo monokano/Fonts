@@ -6,34 +6,51 @@
 <script type="text/javascript">
 </script>
 <style type="text/css">
+
+/*フォントとOpenType機能*/
 @font-face {
   font-family: 'Yakumono';
   src: url('YakuCaltGothic-R.woff2') format('woff2');
-  font-weight:300 ;
+  font-weight:400 ;
+	font-display: swap;
 }
-body {
-	font-family:"游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+html, body {
+	font-family: Yakumono,
+				 "游ゴシック体",
+				 YuGothic,
+				 "游ゴシック Medium",
+				 "Yu Gothic Medium",
+				 "游ゴシック",
+				 "Yu Gothic", 
+				 "ヒラギノ角ゴ ProN W3",
+				 "Hiragino Kaku Gothic ProN",
+				 Meiryo,
+				 "メイリオ",
+				 "MS Gothic",
+				 "ＭＳ ゴシック",
+				 sans-serif;
+	font-weight:400;
+}
+.calt{
+	-webkit-font-feature-settings: 'calt' 1;
+	-moz-font-feature-settings: 'calt' 1;
+	font-feature-settings: 'calt' 1;
+}
+
+/*レイアウト*/
+html, body {
+	font-size:100% ;
     font-kerning: none;
 	margin:2.5rem;
-}
-div {
-	font-size:1.2rem ;
+	hanging-punctuation: allow-end;
 }
 h1 {
 	font-size:1.5rem ;
-    font-kerning: normal;
-    -webkit-font-feature-settings: 'palt';
-    -moz-font-feature-settings: 'palt';
-    font-feature-settings: 'palt';
 }
 h2 {
-	font-size:1.2rem ;
+	font-size:1.2rem;
 }
-.Yakumono {
-	font-family:Yakumono, sans-serif ;
-	font-weight:300 ;
-}
-.vert {
+.vertical {
 	-webkit-writing-mode: vertical-rl;
 	-moz-writing-mode: vertical-rl;
 	-ms-writing-mode: vertical-rl;
@@ -43,20 +60,14 @@ h2 {
 	-ms-text-orientation: upright;
 	text-orientation: upright;
 }
-.calt{
-	-webkit-font-feature-settings: 'calt' 1;
-	-moz-font-feature-settings: 'calt' 1;
-	font-feature-settings: 'calt' 1;
-}
-.caltoff {
-	-webkit-font-feature-settings: 'calt' 0;
-	-moz-font-feature-settings: 'calt' 0;
-	font-feature-settings: 'calt' 0;
+div {
+	font-size:1.2rem;
 }
 .description {
-	font-size:0.9rem ;
-	font-weight:300 ;
+	font-size:0.9rem;
+	font-weight:300;
 }
+
 </style>
 <body>
 
@@ -65,8 +76,7 @@ h2 {
 <hr />
 
 <h2>ヨコ組み　<span class="description">caltを有効にしている</span></h2>
-<div class="Yakumono calt">
-<div>
+<div class="calt">
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
 「あ」．「「「あ。」」」。。。。<br />
@@ -85,39 +95,11 @@ h2 {
 （あ）；（（（あ。）））。。。。<br />
 “あ”。“““あ。”””。。。。<br />
 ‘あ’。‘‘‘あ。’’’。。。。<br />
-</div>
-</div>
-
-<hr />
-
-<h2>ヨコ組み　<span class="description">caltを無効にしている</span></h2>
-<div class="Yakumono caltoff">
-<div>
-（あ）。（（（あ。）））。。。。<br />
-｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
-「あ」．「「「あ。」」」。。。。<br />
-『あ』，『『『あ、』』』、、、、<br />
-〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
-《あ》：《《《あ、》》》、、、、<br />
-【あ】。【【【あ。】】】。。。。<br />
-〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
-〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
-〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
-［あ］・［［［あ。］］］。。。。<br />
-〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
-｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
-〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
-〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
-（あ）；（（（あ。）））。。。。<br />
-“あ”。“““あ。”””。。。。<br />
-‘あ’。‘‘‘あ。’’’。。。。<br />
-</div>
 </div>
 
 <hr />
 
 <h2>ヨコ組み　<span class="description">caltの設定はしていない＝ブラウザのデフォルト状態</span></h2>
-<div class="Yakumono">
 <div>
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
@@ -137,14 +119,12 @@ h2 {
 （あ）；（（（あ。）））。。。。<br />
 “あ”。“““あ。”””。。。。<br />
 ‘あ’。‘‘‘あ。’’’。。。。<br />
-</div>
 </div>
 
 <hr />
 
 <h2>タテ組み　<span class="description">caltを有効にしている</span></h2>
-<div class="Yakumono vert calt">
-<div>
+<div class="vertical calt">
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
 「あ」．「「「あ。」」」。。。。<br />
@@ -163,40 +143,12 @@ h2 {
 （あ）；（（（あ。）））。。。。<br />
 “あ”。“““あ。”””。。。。<br />
 ‘あ’。‘‘‘あ。’’’。。。。<br />
-</div>
-</div>
-
-<hr />
-
-<h2>タテ組み　<span class="description">caltを無効にしている</span></h2>
-<div class="Yakumono vert caltoff">
-<div>
-（あ）。（（（あ。）））。。。。<br />
-｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
-「あ」．「「「あ。」」」。。。。<br />
-『あ』，『『『あ、』』』、、、、<br />
-〈あ〉・〈〈〈あ。〉〉〉。。。。<br />
-《あ》：《《《あ、》》》、、、、<br />
-【あ】。【【【あ。】】】。。。。<br />
-〖あ〗、〖〖〖あ、〗〗〗、、、、<br />
-〔あ〕．〔〔〔あ。〕〕〕。。。。<br />
-〘あ〙，〘〘〘あ、〙〙〙、、、、<br />
-［あ］・［［［あ。］］］。。。。<br />
-〚あ〛：〚〚〚あ、〛〛〛、、、、<br />
-｛あ｝。｛｛｛あ。｝｝｝。。。。<br />
-〝あ〞、〝〝〝あ、〞〞〞、、、、<br />
-〝あ〟．〝〝〝あ。〟〟〟。。。。<br />
-（あ）；（（（あ。）））。。。。<br />
-“あ”。“““あ。”””。。。。<br />
-‘あ’。‘‘‘あ。’’’。。。。<br />
-</div>
 </div>
 
 <hr />
 
 <h2>タテ組み　<span class="description">caltの設定はしていない＝ブラウザのデフォルト状態</span></h2>
-<div class="Yakumono vert">
-<div>
+<div class="vertical">
 （あ）。（（（あ。）））。。。。<br />
 ｟あ｠、｟｟｟あ、｠｠｠、、、、<br />
 「あ」．「「「あ。」」」。。。。<br />
@@ -216,10 +168,8 @@ h2 {
 “あ”。“““あ。”””。。。。<br />
 ‘あ’。‘‘‘あ。’’’。。。。<br />
 </div>
-</div>
 
 <hr />
-
 
 </body>
 </head>
